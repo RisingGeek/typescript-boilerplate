@@ -2,7 +2,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello, welcome to typescript boilerplate');
+    res.send('Hello, welcome to Typescript Boilerplate.');
 });
 
 const PORT = process.env.PORT || 5000;
